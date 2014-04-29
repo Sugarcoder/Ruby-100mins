@@ -4,18 +4,21 @@
 # Example: 
 
 class PersonalChef
-  def mix_eggs
-    puts "mix the eggs please." 
+  def mix_eggs(scrambled)
+    puts "mix the #{scrambled} eggs please." 
     return self
   end
 
   
-  def add_milk
-    puts "add some milk into the eggs please."
+  def add_milk(quantity)
+    puts "add #{quantity} of milk into the eggs and then mix it."
     return self
   end
   
 end 
+
+SugarCoder = PersonalChef.new
+
 
 
 # Calling one method after another is called "method chaining".
@@ -23,7 +26,11 @@ end
 
 # You can call multiple methods at once (ex. object.method1.method2.method3
 
-SugarCoder.mix_eggs(scrambled).add_milk(1_Tbs)
+
+
+# Example: 
+
+SugarCoder.mix_eggs("scrambled").add_milk("1 Tablespoon")
 
 
 
