@@ -1,0 +1,77 @@
+# In Ruby, everything is an object.
+
+# Objects know information (aka attributes) and they can do actions (aka methods). 
+
+# Example: 
+
+# Humans = object, Height/weight/age = attributes, walk/run/dance = methods
+
+
+
+# Class = An abstract idea (a chair's abstract heigh, weight, color) 
+
+# Instance = An actual chair (has a measurable height, weight, color - we can't determine it ahead of time)
+
+
+# Example: 
+
+
+class PersonalChef
+ 
+end
+
+
+
+# Example (adding a method - def):
+
+class PersonalChef
+  def make_eggs
+    puts "Make some scrambled eggs, please!"
+  end
+end
+
+
+
+
+# Once we define a class, we create an instance. 
+
+# Example: 
+
+SugarCoder = PersonalChef.new      # "SugarCoder" is a variable. 
+
+
+
+
+# Once we have an instance, we can set or get attributes from that method.
+
+# Methods are called by using this syntax: objects.method_name (ex. SugarCoder.make_eggs)
+
+
+
+
+
+# Full example: 
+
+
+class PersonalChef
+  def make_eggs
+    puts "Make some scrambled eggs, please!"
+  end
+end
+
+
+class AsstChef
+  def mix_eggs
+    puts "Help with mixing the eggs."
+  end
+end
+
+
+SugarCoder = PersonalChef.new 
+ButterJam = AsstChef.new
+
+
+SugarCoder.make_eggs
+ButterJam.mix_eggs
+
+
