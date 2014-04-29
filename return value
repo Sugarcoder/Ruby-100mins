@@ -1,0 +1,29 @@
+# Return value is like a sous chef. 
+# You ask the sous chef to make something, they make it and then return back to you for more instructions. 
+
+# Example: 
+
+class PersonalChef
+  def mix_eggs
+    puts "mix the eggs please." 
+    return self
+  end
+
+  
+  def add_milk
+    puts "add some milk into the eggs please."
+    return self
+  end
+  
+end 
+
+
+# Calling one method after another is called "method chaining".
+
+
+# You can call multiple methods at once (ex. object.method1.method2.method3
+
+SugarCoder.mix_eggs(scrambled).add_milk(1_Tbs)
+
+
+
