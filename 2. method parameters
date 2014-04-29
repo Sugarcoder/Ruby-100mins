@@ -3,15 +3,15 @@
 # When a method takes a parameter, this is what it will look like: 
 
 class PersonalChef
-  def mix_eggs(scrambled)                      # "scrambled" is the parameter. 
-    puts "Make #{scrambled} eggs please."
+  def mix_eggs(eggtype)                      # "eggtype" is the parameter. 
+    puts "Make #{eggtype} eggs please."
   end
 end 
 
 SugarCoder = PersonalChef.new
 
 
-SugarCoder.mix_eggs('scrambled')
+SugarCoder.mix_eggs("scrambled")
 
 
 
