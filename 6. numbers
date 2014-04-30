@@ -1,0 +1,37 @@
+# There are 2 basic kind of numbers: 
+# integers (whole numbers) and floats (have a decimal point).
+# Integers are easier to work with compared to floats (avoid if possible)
+
+
+
+
+# ITERATING 
+
+
+# "for" loop is popular to use to repeat something.
+
+# Example: 
+
+for(int i=0; i < 5; i++)
+  {
+    printf "Goodnight, Moon" 
+  }
+  
+
+# However, in Ruby, we use "times"
+
+
+
+# Example: 
+
+def make_eggs(quantity)
+  quantity.times do      
+    puts "Making an egg"
+  end
+    puts "I am done!"
+    return self
+end
+   
+
+
+ # When we call "times", we need to tell it how many times to "do" something.
