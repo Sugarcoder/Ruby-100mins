@@ -1,0 +1,8 @@
+# Symbols are used for passing information around (inside the program).
+
+# Example: 
+
+:hello.methods
+:hello.methods.count
+
+
