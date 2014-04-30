@@ -1,0 +1,109 @@
+# Strings = Anything between " " (including spaces)
+
+# Length = Calculates the length of a string
+
+# Example: 
+
+greetings = "Goodnight, Moon!"
+greetings.length
+
+
+
+
+# DELETING LETTERS from a string
+
+# Example:
+
+greetings = "Goodnight, Moon!"
+greetings.delete('n')
+
+
+
+
+# REPLACING LETTERS in a string
+
+# Example: 
+
+greetings = "Goodnight, Moon!"
+greetings.gsub("Moon", "Sun")
+
+
+
+
+
+# SPLITTING A STRING = break a single string into an array of strings
+
+# Example:
+
+greetings = "hello, hi, howdy"  # OR "hello hi howdy"
+greetings.split(",")
+
+
+
+
+
+
+# PULL OUT A SPECIFIC PIECE of string 
+
+# Inside the [ ] is what you want to pull out.
+
+# Example: 
+
+greetings = "Goodnight, Moon!" 
+greetings[1..4]    # Answer is "oodn"
+
+
+
+
+
+
+
+# COMBINING VARIABLES WITH STRINGS
+
+# Example: 
+
+require 'date'
+today = date.today.stftime("%A")           # Answer will be whatever date it is (ex. Friday)
+puts "Happy " + today + "!"          
+
+
+
+
+# COMBINING NUMBERS WITH STRINGS
+
+# Example:
+
+today = Date.today.strftime("%A")
+day_of_year = Date.today.yday
+puts "Happy " + today + "! It is the " + day_of_year.to_s + "of the year." 
+
+# to_s = Method to convert a number into a string
+
+
+
+
+
+
+# ANOTHING METHOD OF COMBING NUMBERS WITH STRINGS IS CALLED: 
+# "STRING INTERPOLATION" 
+
+# String Interpolation #{} = Sticking data into the middle of a string 
+
+# Example: 
+
+puts "Happy #{today}! It is the #{day_of_year} day of the year." 
+
+
+
+
+
+
+# PUTTING CODES INTO THE INTERPOLATION
+
+# Example:
+
+modifier = "very" 
+mood = "excited"
+puts "I am #{modifier * 3 + mood} today!"
+
+
