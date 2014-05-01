@@ -1,0 +1,9 @@
+# nil = nothingness
+
+# For example, if there are 5 eggs and you ask for 6, Ruby will tell you "nil" because there is no 6th egg.
+
+
+# SugarCoder.make_toast("pink")     = This will make your toast pink
+
+# SugarCoder.make_toast(nil)        = This will make your toast ____ (nothing is there)
+
