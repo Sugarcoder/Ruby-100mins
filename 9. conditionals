@@ -1,0 +1,42 @@
+# ==, >=, <=, >, <
+
+# Every object has a method "nil?" (Returns "true" only when an object is nil)
+
+# Array methods have "include?" 
+
+
+# Example:
+
+# [Adding to the "class PersonalChef" file]
+
+
+def water_status(minutes)
+  if minutes < 7
+    puts "Water is not boiling yet."
+  elsif minutes == 7 
+    puts "Water is barely boiling."
+  elsif minutes == 8
+    puts "Water is boiling now."
+  else
+    puts "The water is super hot!"
+  end
+    return self
+end
+
+
+
+
+
+# CONDITIONAL LOOPING
+
+def countdown(counter)
+  while counter > 0                             # You can use "until" loop as well. Replace "while" with "until".
+    puts "The counter is #{counter}."
+    counter = counter - 1
+  end 
+  return self 
+end 
+  
+
+
+# You can write a "logical or" with | |
