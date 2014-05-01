@@ -49,3 +49,6 @@ def inventory
 end
 
 
+SugarCoder.inventory                # You can see the whole list here. 
+
+
