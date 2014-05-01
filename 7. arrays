@@ -1,0 +1,69 @@
+# There are 2 ways of collecting data in Ruby: Arrays and Hashes.
+
+
+# Array = a number-indexed list.  An array starts with [0....]
+
+# Index = The address of a specific element inside the array. The addresses are in a specific order.
+
+# The index always starts with 0. 
+
+
+# Example: 
+
+meals = ["breakfast", "lunch", "dinner"]
+puts meals[2]
+puts meals.first
+puts meals.last
+
+meals << "dessert"        # Adds "dessert" to the end of the string
+
+puts meals[3]
+puts meals             # Answer is "breakfast, lunch, dinner, dessert".
+
+
+
+
+
+
+# SORT = You can rearrange an array by using the "sort" method. 
+
+
+# EACH = You can iterate through each element by using the "each" method. 
+
+
+# JOIN = You can mash arrays together using the "join" method.
+
+
+# INDEX = You can find a specific element by using the "index" method. 
+
+
+# INCLUDE = You can ask the array if an element is present by using the "include?" method.
+
+
+
+# EXAMPLE (adding to class PersonalChef): 
+
+def gameplan(meals)
+  meals.each do |meal|
+    puts "We'll have a #{meal}..."
+  end
+  
+  all_meals = meals.join(", ")
+  puts "In summary: #{all_meals}
+end
+  
+  
+  
+   
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
