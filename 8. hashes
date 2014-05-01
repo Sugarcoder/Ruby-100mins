@@ -1,0 +1,51 @@
+# Hashes = A collection of data where each element of data is addressed by a name.
+
+# Hash = An unordered collection where the data is ordered into keys or value pairs. 
+
+
+
+# Example (Analogy): 
+
+# Like a refridgerator - We don't care where the item is in the fridge. However, things are assigned names. 
+# Apples = 1, Oranges = 2, Bananas = 3
+
+
+# Example: 
+
+produce = {"apples" => 3, "oranges" => 6, "eggs" => 12}
+puts "There are #{produce['eggs']} eggs in the fridge."
+
+
+produce["grapes"] = 100           # This will add grapes to the end of the list. 
+
+
+
+
+# When creating a hash, the keys and values are linked by the => (known as the rocket symbol).
+
+# Hashes start with { bracket and end with } bracket.
+
+
+
+
+# Simple way to code Hash:
+
+
+produce = {apples: 3, oranges: 6, eggs: 12}
+puts "There are #{produce[:oranges]} oranges in the fridge."
+
+
+
+# Counting Inventory using Hashes
+
+# Adding this onto "class PersonalChef":
+
+
+def inventory
+  produce = {apples: 3, oranges: 6, eggs: 12}
+  produce.each do |item, quantity|
+    puts "There are #{quantity} #{item} in the fridge."
+  end
+end
+
+
