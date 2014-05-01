@@ -1,4 +1,5 @@
-# ==, >=, <=, >, <
+# ==, >=, <=, >, <, &&, ||
+
 
 # Every object has a method "nil?" (Returns "true" only when an object is nil)
 
@@ -39,4 +40,6 @@ end
   
 
 
-# You can write a "logical or" with | |
+# You can write a "logical or" with | |.
+
+# You can write a "logical and" with &&.
